@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+    h1#principal{
+        background-color: #1c00a7;
+        color: rgb(255, 255, 255);
+        text-align: center;
+      }
+    h1{
+      color: #0000ab;
+       text-align: center;
+      }
+    body{
+      background-color: #7c7cff;
+    }
+    p{
+      color: rgb(2, 0, 110);
+      text-align: justify;
+    text-indent: 20px;
+    }
+  .basico{
+    color: #4bcd5c;
+  }
+  .intermediario{
+   color: #cdc44b;
+  }
+  .avancado{
+    color: #cd4b4b;
+  }
+  .marcador{
+    background-color: rgba(255, 228, 196, 0.448);
+  }
+
+
+
+

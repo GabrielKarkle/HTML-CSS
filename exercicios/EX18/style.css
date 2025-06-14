@@ -1,0 +1,10 @@
+style{
+    @font-face {
+        font-family:'brick';
+        src: url('fonts/brick.otf') format('opentype');}
+    @font-face {
+        font-family:'salamah' ;
+        src: url('font/salamah.otf') format('opentype');}
+    h1{font-family: 'brick';}
+    p{font-family: 'salamah';}
+    }

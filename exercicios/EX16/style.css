@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Pangolin&display=swap');
+* {font-family:'pangolin';}
+p {
+    text-align: justify;
+  }
+body {
+    background-image: linear-gradient( to bottom,#214C8F,#C1C9D6 );
+    }
+main{
+    background-color: #D7D0C2;
+    box-shadow: 5px 5px 4px #a5a095;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+    }
+h1 {
+    color: #595656;
+    text-align: center;
+    }
+h2 {
+    color: #595656;
+    text-align: center;
+    }
+p  {
+    color: #3f3f3f;
+    text-align: justify;
+    text-indent:20PX
+    }
+    img{display: block;
+      margin: 0 auto;}
+
+

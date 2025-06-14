@@ -1,0 +1,16 @@
+h1{ 
+    text-align: center;
+    background-color: lightblue;
+    height: 45px;
+    width: 305px;
+    
+    border: 10px solid lightgrey;
+    
+    padding: 12px 10px 12px 10px;
+
+    margin: 10px auto 10px auto;
+    
+    outline: 5px solid rgb(116, 116, 116)
+    
+}
+
