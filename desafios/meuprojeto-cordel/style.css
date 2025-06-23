@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
     margin: 0px;
@@ -14,10 +16,22 @@
     
  }
  header h1 {
+    font-family: "Anton", sans-serif;
     font-size: 3em; 
  }
  header p {
-    font-size: 1.3em;
+    font-size: 1.3em;  
+ }
+ header a {
+   text-decoration: none;
+   color: white;
+ }
+ header a:hover {
+   color: lightblue;
+   text-decoration: underline;
+ }
+ main {
+  font-family: "Courgette", "cursive";
  }
  main#Q1 p {
     height: 500px;
@@ -33,6 +47,14 @@
     background-size: cover;
     color: white;
    padding-bottom: 25px;
+   background-attachment: fixed;
+  
+   }
+ main#Q2 > p {
+   background-color: #8080804f;
+   width: 400px;
+   margin: 15px;
+    display: inline-block;
  }
  main#Q3 p {
     margin-bottom: -80px;
@@ -46,6 +68,13 @@
     background-size: cover; 
      padding-bottom: 25px;
     color: rgb(0, 0, 0);
+    background-attachment: fixed;
+}
+main#Q5 > p {
+   background-color: #8080804f;
+   width: 400px;
+   margin: 15px;
+   display: inline-block;
 }
 main#Q6 {
     color: rgb(0, 0, 0);
@@ -55,10 +84,18 @@ main#Q7 {
 /*nada para fazer*/ 
  }
  article {
+   font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: black;
     color: white;
     font-size: 1.2em;
     padding: 15px;
  }
-
+ article a {
+   color: white;
+   text-decoration: none;
+ }
+article a:hover {
+   text-decoration: underline;
+   color: rgb(33, 33, 154);
+}
