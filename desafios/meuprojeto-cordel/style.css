@@ -60,7 +60,8 @@
     margin-bottom: -80px;
  }
  main#Q4 {
-/*nada para fazer*/
+   background-color: #80808000;
+
  }
  main#Q5 {
     background-image: url(imagens/background002.jpg);
@@ -81,7 +82,7 @@ main#Q6 {
     margin-bottom: -80px;
 }
 main#Q7 {
-/*nada para fazer*/ 
+   background-color: #80808000;
  }
  article {
    font-family: Arial, Helvetica, sans-serif;
