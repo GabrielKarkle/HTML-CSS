@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando formularios</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>testando formularios</h1>
+    <form action="cadastro.php" autocomplete="on">
+        <p>
+            <label for="inome"> nome :</label>
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="30" placeholder="seu nome" autocomplete="name" >
+        </p>
+        <p>
+            <label for="isobrenome"> sobrenome :</label>
+            <input type="text" name="sobrenome" id="isobrenome" required minlength="5" maxlength=" 30" placeholder="seu sobrenome">
+        </p>
+        <p>
+            <label for="iidade"> idade :</label>
+            <input type="number" name="idade" id="iidade" required min="1" max="100" value="18" >
+        </p>
+        <p>
+            <label for="imes"> que mes e ano voce nsceu ?</label>
+            <input type="month" name="mes" id="imes" value="10/2006">
+        </p>
+        <p>
+            <label for="idia"> que dia e hoje ? </label>
+            <input type="date" name="dia" id="idia" value="07/07/2025">
+        </p>
+        <p>
+            <label for="ihora"> que hora e no seu Pais</label>
+            <input type="time" name="hora" id="ihora" >
+
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+        </p>
+    </form>
+    
+</body>
+</html>
