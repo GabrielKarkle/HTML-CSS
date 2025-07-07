@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>melhorando os formularios</title>
+</head>
+<body>
+    <h1>cadastre-se aqui </h1>
+    <form autocomplete="on" action="cadastro.php">login
+        <fieldset>
+            <legend>seus datos</legend>
+            <p>
+                <label for="inome">nome :</label>
+                <input type="text" name="nome" id="inome" required minlength="4" maxlength="25" placeholder="seu nome" autocomplete="name">
+            </p>
+            <p>
+                <label for="iemail">email :</label>
+                <input type="email" name="email" id="iemail" required minlength="15" maxlength="40" placeholder="seu email" autocomplete="email">
+            </p>
+            <p>
+                <label for="inum">numero de telefone :</label>
+                <input type="tel" name="num" id="inum" required min="9" placeholder="(xxxx)-xxx-xxx" >
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+            </p>
+        </fieldset>
+    </form> 
+    
+</body>
+</html>
