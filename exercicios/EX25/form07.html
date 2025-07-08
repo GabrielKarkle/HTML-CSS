@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>novos inputs e opções</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>novas opções</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iest">Seu Estado :
+                <select name="Estado" id="iest">
+                    <option value="" selected>--escolha---</option>
+                    <option value="Mg">Minas Gerais</option>
+                    <option value="Sp">Sao Paulo</option>
+                    <option value="Pr">Parana</option>
+                    <option value="Bh">Bahia</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label for="iprof">Profissão :</label>
+            <input type="text" name="Profissão" id="iprof" list="listprof">
+                <datalist id="listprof">
+                    <option value="adm"> administrador</option>
+                    <option value="dsv"> desenvolvedor</option>
+                    <option value="adv"> advogado</option>
+                    <option value="mdc"> medico</option>
+                </datalist>
+            </label>
+        </p>
+        <p>
+            <label for="imsg">mesangem <br>
+                <textarea name="mesangem" id="imsg" cols="50" rows="15">
+
+                </textarea>
+
+            </label>
+        </p>
+
+    </form>
+    
+</body>
+</html>
