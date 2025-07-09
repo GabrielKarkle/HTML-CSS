@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>out put</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>testanto as output</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="n1"> 1 numero :
+                <input type="number" name="numero" id="n1" min="0" max="50" required
+                oninput="isoma.innerHTML =Number(n1.value) + Number(n2.value)">
+            </label>
+        </p>
+        <p>
+            <label for="n2"> 2 numero :
+                <input type="number" name="numero" id="n2" min="0" max="50" required
+                oninput="isoma.innerHTML =Number(n1.value) + Number(n2.value)">
+            </label>
+        </p>
+        <p>
+            <label for="isoma"> soma :</label>
+            <outpu name="soma" id="isoma">0</output>
+        </p>
+        <p>
+            <label for="ienviar">
+                <input type="submit" value="enviar">
+                
+
+            </label>
+        </p>
+    </form>
+    
+</body>
+</html>
