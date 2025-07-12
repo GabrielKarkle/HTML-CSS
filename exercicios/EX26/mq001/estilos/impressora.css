@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 22px;
+    font-size: 1,2em;
+}
+h1, h2 {
+    font-size: 1,5em;
+    margin: 10px;
+}
+
+ul {
+    display: none;
+   }
+   main::after {
+    content: 'este artigp foi feito pelo site https://github.com/GabrielKarkle';
+   }
+
