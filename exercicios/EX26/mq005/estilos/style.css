@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*body*/
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    background-color: grey;
+}
+
+
+/*header*/ 
+header {
+    background-color: darkred;
+}
+
+header > h1 {
+    color: white;
+     text-align: center;
+     padding: 25px;
+}
+
+
+/*menu hamburguer*/
+span#burguer {
+    background-color: #636363;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    width: 100vw;
+}
+
+span#burguer:hover {
+    
+    background-color: white;
+    color: black;
+}
+
+
+
+/*menu*/
+menu {
+    background-color: rgb(205, 126, 0);
+    display: none;
+
+}
+
+menu  ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+menu li {
+    border: 1px solid black;
+}
+
+menu  li  a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+menu li a:hover {
+    display: block;
+    background-color: rgb(139, 76, 0);
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+
+/*main*/
+main {
+    background-color: #ffffff;
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+main > h2 {
+    text-align: center;
+    margin-bottom: 15px;
+   padding-top: 15px;
+}
+
+main > p {
+    text-indent: 20px;
+    text-align: justify;
+    margin: 15px;
+    color: #000000;
+}
