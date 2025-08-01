@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flebox</title>
+    <style>
+        div.conteiner {
+            background-color: rgba(4, 22, 214, 0.495);
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.itens {
+            background-color: lightgrey;
+            border: 1px solid black;
+            flex-basis: 170px;
+            text-align: center;
+        }
+        div#cx1 {
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        div#cx2 {
+            flex-grow: 4 ;
+            flex-shrink: 4 ;
+        }
+        div#cx3 {
+            flex-grow: 1 ;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="itens" id="cx1">A</div>
+        <div class="itens" id="cx2">B</div>
+        <div class="itens" id="cx3">C</div>
+    </div>
+</body>
+</html>

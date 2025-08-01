@@ -6,19 +6,28 @@
     <title>flebox</title>
     <style>
         div.conteiner {
-            background-color: lightcyan;
+            background-color: rgba(4, 22, 214, 0.495);
             display: flex;
+            flex-flow: row wrap;
         }
         div.itens {
             background-color: lightgrey;
             border: 1px solid black;
-            flex: auto;
+            flex-basis: 150px;
+            flex-shrink: 1;
+            flex-grow: 1;
             text-align: center;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
+        <div class="itens">A</div>
+        <div class="itens">B</div>
+        <div class="itens">C</div>
+        <div class="itens">A</div>
+        <div class="itens">B</div>
+        <div class="itens">C</div>
         <div class="itens">A</div>
         <div class="itens">B</div>
         <div class="itens">C</div>
