@@ -9,10 +9,9 @@
             display: grid;
             border: 2px solid red;
             width:700px;
-            grid-template: 1fr 1fr 1fr /repeat(2, 1fr) 2fr;
-        
-           
+            grid-template: repeat(3, 1fr) / repeat(3, 1fr);
             grid-auto-flow: column;
+            grid-auto-columns: 1fr;
             gap: 20px;
             place-items: normal normal;
             place-content: normal normal;
@@ -35,5 +34,6 @@
         <div class="itens">g</div>
         <div class="itens">i</div>
         <div class="itens">j</div>
+        <div class="itens">i</div>
 </body>
 </html>
