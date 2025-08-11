@@ -1,0 +1,36 @@
+@charset "UTF-8" ;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template: repeat(10, 100px) / repeat(5, auto);
+    gap: 5px;
+}
+.topo {
+    background-color: lightblue;
+    grid-area: 1 / 1 / 3 / 6 ;
+}
+.menu {
+    background-color: lightcoral;
+    grid-area: 3 / 1 / 4 / 6 ;
+}
+.principal {
+    background-color: lightgreen;
+    grid-area: 4 / 1 / 10 / 5;
+}
+.secundario {
+    background-color: lightgoldenrodyellow;
+    grid-area: 4 / 5 / 10 / 6;
+}
+.rodape {
+    background-color: rgb(250, 182, 255);
+    grid-area: 10 / 1 / 11 / 6;
+}
